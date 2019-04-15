@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 public class SimpleTest {
 
     private WebDriver webDriver;
@@ -12,7 +13,6 @@ public class SimpleTest {
     @Before
     public void setup() {
         webDriver = new FirefoxDriver();
-
     }
 
     @After
