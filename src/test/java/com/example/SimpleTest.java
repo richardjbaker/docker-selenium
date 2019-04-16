@@ -12,6 +12,7 @@ public class SimpleTest {
 
     @Before
     public void setup() {
+        System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
         webDriver = new FirefoxDriver();
     }
 
